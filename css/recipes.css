@@ -1,0 +1,19 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+img {
+  width: 400px;
+  height: auto;
+}
+h3,
+h1 {
+  color: brown;
+}
+li span {
+  color: rgb(221, 68, 68);
+  font-size: 18px;
+}
