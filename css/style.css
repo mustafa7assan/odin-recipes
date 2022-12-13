@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/bg-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.navbar {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(2, 2, 2, 0.774);
+  color: white;
+}
+.recipes-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.recipe-container {
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: rgba(2, 2, 2, 0.774);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1.77;
+}
+.recipe-container h2 {
+  text-align: center;
+}
+.recipe-description {
+  display: flex;
+  gap: 20px;
+}
+.recipe-description img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+.recipe-description .description {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.recipe-ingredients h3,
+.recipe-steps h3 {
+  padding-bottom: 3px;
+  width: fit-content;
+  border-bottom: 1px solid white;
+  color: red;
+}
+
+.recipe-ingredients ul {
+  padding: 20px;
+}
+.recipe-steps ol {
+  padding: 20px;
+}
+.recipe-steps ol li {
+  margin-bottom: 10px;
+}
